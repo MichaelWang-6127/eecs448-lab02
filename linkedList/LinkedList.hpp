@@ -47,10 +47,10 @@ bool LinkedList<T>::search(T value) const
                     {
                         isFound = true;
                     }
-                    else
-                    {
+
+
                         temp = temp->getNext();
-                    }
+
                 }
 	/** TODO 
 		Fix this method
